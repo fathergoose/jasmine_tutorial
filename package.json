@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/fathergoose/jasmine_tutorial/issues"
   },
-  "homepage": "https://github.com/fathergoose/jasmine_tutorial#readme"
+  "homepage": "https://github.com/fathergoose/jasmine_tutorial#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7"
+  }
 }
