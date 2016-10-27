@@ -1,5 +1,10 @@
-describe('calculator', function () {
-	it('1 + 1 should equal 2', function() {
-		expect(1+1).toBe(2);
-	})
-});
+(function() {
+	'use strict';
+
+	angular.module('meetIrl', [
+		'ui.router'
+		])
+	.config(function($urlRouterProvider) {
+		$urlRouterProvider.otherwise("/");
+	});
+})();
