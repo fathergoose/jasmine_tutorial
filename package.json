@@ -1,0 +1,25 @@
+{
+  "name": "jasmine_tutorial",
+  "version": "1.0.0",
+  "description": "To understand jasmine",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fathergoose/jasmine_tutorial.git"
+  },
+  "keywords": [
+    "testing",
+    "tutorial",
+    "jasmine"
+  ],
+  "author": "Al Ilseman",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fathergoose/jasmine_tutorial/issues"
+  },
+  "homepage": "https://github.com/fathergoose/jasmine_tutorial#readme"
+}
