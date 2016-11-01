@@ -60,8 +60,24 @@ describe('Users factory', function() {
 	});
 
 	describe('.findById()', function() {
+		var singleUser = {
+			id: '2',
+			name: 'Bob',
+			role: 'Developer',
+			location: 'New York',
+			twitter: 'billybob'
+		};
+
 		it('should exist', function() {
 			expect(Users.findById()).toBeDefined;
+		});
+
+		it('should return one user object if it exitsts', function() {
+			expect(Users.findById('2')).toEqual(singleUser);
+		});
+
+		it('should return undefined if the user cannot be found', function() {
+			expect(Users.findById('ABC')).not.toBeDefined();
 		});
 	});
 });
